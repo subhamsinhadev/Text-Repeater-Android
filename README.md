@@ -13,13 +13,13 @@
 
 ## Preview
 
-![App Preview GIF](https://yourdomain.com/preview.gif)
+![App Preview GIF](https://github.com/subhamsinhadev/Text-Repeater-Android/blob/main/Sample.gif)
 
 ## Screenshots (Dark Mode)
 
 | Home Screen | Repeated Output |
 |-------------|-----------------|
-| ![Home](https://yourdomain.com/home_dark.png) | ![Output](https://yourdomain.com/output_dark.png) |
+| ![Home](https://github.com/subhamsinhadev/Text-Repeater-Android/blob/main/app.jpg) | ![Output](https://github.com/subhamsinhadev/Text-Repeater-Android/blob/main/app_black.jpg) |
 
 ## How to Use
 
