@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="top"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextView"
+        android:id="@+id/app"
+        android:gravity="left"
+        android:text="Text Repeater"
+        android:textSize="20dp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+    <com.google.android.material.textfield.TextInputEditText
+    android:layout_width="match_parent"
+        android:maxHeight="100dp"
+       android:id="@+id/input"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter The Text You Want Repeat"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+
+            android:id="@+id/input_r"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+android:maxHeight="100dp"
+            android:hint="Enter The Number Of Repeat"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Repeat"
+
+ />  <com.google.android.material.button.MaterialButton
+    android:id="@+id/reset"
+    android:layout_marginTop="10dp"
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Reset"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/_space"
+            android:layout_height="wrap_content"
+            android:text="Add Space"/>
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/_index"
+            android:text="Add Index"/>
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/_line"
+            android:text="New Line"/>
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        >
+<!--        <androidx.appcompat.widget.AppCompatImageButton-->
+<!--            android:id="@+id/copy"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:src="@drawable/ic_launcher_foreground"-->
+<!--            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:text="Repeat"/>-->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextView"
+            android:id="@+id/result"
+            android:gravity="center"
+            android:text="Repeated Text"
+            android:textSize="20dp"
+
+            />
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/github"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1.0"
+        android:layout_height="50dp"
+        android:onClick="github"
+        android:text="GitHub Repo"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/about"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1.0"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:onClick="about"
+        android:layout_height="50dp"
+        android:text="About"/>
+
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextView"
+        android:id="@+id/dev"
+        android:gravity="center"
+        android:fontFamily="monospace"
+
+        android:text="Developed with ❤️ By Subham Sinha"
+        android:textSize="15dp"
+
+        />
+
+
+
+
+</LinearLayout>
