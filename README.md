@@ -34,7 +34,7 @@
 
 # Developer
 
-Developed by Subham Sinha.
+Developed by Subham Kumar Sinha.
 
 # License
 
