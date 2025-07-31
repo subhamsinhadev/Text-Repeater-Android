@@ -10,7 +10,7 @@
 - Add index before each line  
 - Add each repetition on a new line  
 - Repeat and reset functionality  
-
+- MD3 Coming 
 ## Preview
 
 ![App Preview GIF](https://github.com/subhamsinhadev/Text-Repeater-Android/blob/main/Sample.gif)
